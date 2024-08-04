@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 public class BudgetService implements GeminiService {
-    private final String key = "AIzaSyB3GRRnXnOsnRJOhPpLQtWvKf4Bs1Hx-nU";
+    private final String key = "YOUR_API_KEY";
     private final GeminiApiClient client;
     private Root latestResponse;
 
